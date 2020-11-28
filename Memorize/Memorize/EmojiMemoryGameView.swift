@@ -45,7 +45,7 @@ struct CardView: View {
         if card.isFaceUp || !card.isMatched {
             ZStack {
                 Pie(startAngle: Angle.degrees(0-90), endAngle: Angle.degrees(110-90), clockwise: true)
-                    .padding(5).opacity(.4)
+                    .padding(5).opacity(0.4)
                 Text(card.content)
                     .font(Font.system(size: fontSize(for: size)))
                     .rotationEffect(Angle.degrees(card.isMatched ? 360 : 0))
