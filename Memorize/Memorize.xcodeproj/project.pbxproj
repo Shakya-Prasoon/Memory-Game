@@ -13,6 +13,8 @@
 		24439B31256A80B000C221C5 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 24439B30256A80B000C221C5 /* Preview Assets.xcassets */; };
 		24AF745725722BC900938B48 /* Pie.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24AF745625722BC800938B48 /* Pie.swift */; };
 		24AF74622572313800938B48 /* Cardify.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24AF74612572313800938B48 /* Cardify.swift */; };
+		24AF74692572346300938B48 /* EmojiMemoryGameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24AF74682572346300938B48 /* EmojiMemoryGameView.swift */; };
+		24AF746C2572383000938B48 /* Array+Only.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24AF746B2572383000938B48 /* Array+Only.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		24439B32256A80B000C221C5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		24AF745625722BC800938B48 /* Pie.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pie.swift; sourceTree = "<group>"; };
 		24AF74612572313800938B48 /* Cardify.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cardify.swift; sourceTree = "<group>"; };
+		24AF74682572346300938B48 /* EmojiMemoryGameView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmojiMemoryGameView.swift; sourceTree = "<group>"; };
+		24AF746B2572383000938B48 /* Array+Only.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Array+Only.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +67,8 @@
 				24439B2D256A80B000C221C5 /* Assets.xcassets */,
 				24439B32256A80B000C221C5 /* Info.plist */,
 				24439B2F256A80B000C221C5 /* Preview Content */,
+				24AF74682572346300938B48 /* EmojiMemoryGameView.swift */,
+				24AF746B2572383000938B48 /* Array+Only.swift */,
 			);
 			path = Memorize;
 			sourceTree = "<group>";
@@ -146,6 +152,8 @@
 			files = (
 				24AF745725722BC900938B48 /* Pie.swift in Sources */,
 				24439B2C256A80AE00C221C5 /* ContentView.swift in Sources */,
+				24AF74692572346300938B48 /* EmojiMemoryGameView.swift in Sources */,
+				24AF746C2572383000938B48 /* Array+Only.swift in Sources */,
 				24AF74622572313800938B48 /* Cardify.swift in Sources */,
 				24439B2A256A80AE00C221C5 /* MemorizeApp.swift in Sources */,
 			);
