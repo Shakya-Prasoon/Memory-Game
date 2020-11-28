@@ -1,8 +1,8 @@
 //
-//  EmojiMemoryGameView.swift
-//  Memorize
+//  ContentView.swift
+//  MemoryGame
 //
-//  Created by Prasoon Shakya on 11/27/20.
+//  Created by Prasoon Shakya on 11/28/20.
 //
 
 import SwiftUI
@@ -52,7 +52,7 @@ struct CardView: View {
     private func body(for size: CGSize) -> some View {
         if card.isFaceUp || !card.isMatched {
             ZStack {
-                if card.isConsuminBonusTime {
+                if card.isConsumingBonusTime {
                     Pie(startAngle: Angle.degrees(0-90), endAngle: Angle.degrees(-animatedBonusRemaining-90), clockwise: true)
                         .padding(5).opacity(0.4)
                         .onAppear {
@@ -82,6 +82,6 @@ struct CardView: View {
 
 struct EmojiMemoryGameView_Previews: PreviewProvider {
     static var previews: some View {
-        EmojiMemoryGameView()
+        EmojiMemoryGameView(viewModel: EmojiMemoryGame())
     }
 }
