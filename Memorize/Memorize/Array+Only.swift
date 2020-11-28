@@ -1,5 +1,5 @@
 //
-//  Array_Only.swift
+//  Array+Only.swift
 //  Memorize
 //
 //  Created by Prasoon Shakya on 11/27/20.
